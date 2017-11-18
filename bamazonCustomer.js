@@ -68,7 +68,7 @@ function orderProduct() {
         }
         else {
           // if they ordered too many, apologize and start over
-          console.log("you have ordered more than what we have in stock. Try again...");
+          console.log("Order Denied! Insufficient Inventory To Meet your Order. Try again...");
           orderProduct();
         }
       });
