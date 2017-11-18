@@ -1,6 +1,6 @@
 # BAMAZON! #
 
-Bamazon is primitive start of an inventory / ecommerce system.  This is stage one.  There is no traditional front end HTML that you would normally think of when ordering a product. This is early testing of concept and logic.  This uses NodeJS and MySQL. It also uses "inquirer" & "mysql" depencentcies. Details can be found in the package.json. The MySQL database populated with 10 test items.  The items have an ID, Name, Price and a Quanitity.  NodeJS Server should be run locally and accessed via a CLI (Command Line Intervface - Like Bash).
+Bamazon is a primitive start to a inventory / ecommerce system.  This is stage one.  There is no traditional frontend HTML that you would normally think of when ordering a product. This is early testing of concept and logic.  This uses NodeJS and MySQL. It also uses "inquirer" & "mysql" depencentcies. Details can be found in the package.json. The MySQL database populated with 10 test items.  The items have an ID, Name, Price and a Quanitity.  NodeJS Server should be run locally and accessed via a CLI (Command Line Intervface - Like Bash).
 
 **See Screen Grabs Below for a Visual of the outline below**
 
