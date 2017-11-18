@@ -1,2 +1,6 @@
-# bamazon
-Playing with mySQL
+#BAMAZON!#
+
+Bamazon is primitive start of inventory / ecommerce system.  This is stage one.  There is no traditional front end HTML that you would normally think of when ordering a product.  This uses MySQL as a database populated with only 10 items.  these items have an ID, Name, Price and a Quanitity.  It runs on NodeJS Server via a CLI (Command Line Intervface - Like Bash).  It lists the products.  It asks you to pick one and then indicate the quanitity that you desire.  Once that information is submitted to the DataBase the quanitity of the order is compared to the inventory in stock.  If their is sufficient inventory, the user gets a message that the order is placed and the inventory is decreased by the amount ordered.  If there is insufficient inventory, the order is reject, the user in notified that the order didn't go thru and then the procress starts all over again.  That is all the functionality at this point.  It is basically testing getting info from the DB, running some server side logic and then responding back to the user.  
+
+Step 1.
+![Step 1](./images/001_use_CLI_to_run_NodeJS_and_bamazonCustomer.js.png)
